@@ -121,7 +121,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'src/fonts/',
           src: [ '**/*.{eot,ttf,svg,woff,woff2}' ],
-          dest: 'dist/css/fonts'
+          dest: 'dist/fonts'
         }]
       },
       imgs: {
