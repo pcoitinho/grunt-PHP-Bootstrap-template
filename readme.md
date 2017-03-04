@@ -59,7 +59,7 @@ All original code is saved in the `src/` directory. The Gruntfile contains compi
 - `grunt watch:html`      Builds PHP/HTML automatically
 - `grunt watch:js`        Builds JavaScript automatically
 
-## webfonts
+## Webfonts
 
 You will find a `src/fonts/` folder. All the font files (ttf, eot, svg, woff and woff2) will be copied to `dist/fonts/`. Other documents will be ignored.
 
@@ -90,4 +90,4 @@ All front-facing JS and CSS files have a banner.
   Copyright (c) 2017 */
 ```
 
-You can customize the banner in the first few lines of
+You can customize the banner in the Gruntfile.
